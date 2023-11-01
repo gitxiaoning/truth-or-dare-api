@@ -1,0 +1,113 @@
+[
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"What is one thing you've never told anyone in this room?",
+        "language":"english"
+    },
+
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"If you could become any character from a book or movie for a day, who would you choose and why?",
+        "language":"english"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"What is the one thing you would never want your parents to find out about you?",
+        "language":"english"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"What is the one secret you are most ashamed of?",
+        "language":"english"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Go outside and sing the chorus of your favorite song as loudly as you can.",
+        "language":"english"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Pretend to be a tour guide and give a detailed tour of the room we're in, highlighting 'historical facts' and 'artifacts'.",
+        "language":"english"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Call someone on your phone and sing 'Happy Birthday' to them, regardless of whether it's their birthday or not.",
+        "language":"english"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Send a funny selfie to the third person in your contact list.",
+        "language":"english"
+    },
+
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"¿Cuál es el recuerdo más feliz que tienes con nuestra familia?",
+        "language":"spanish"
+    },
+
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"¿Cuál es el momento más embarazoso de tu vida que puedas compartir con nosotros?",
+        "language":"spanish"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"¿Cuál es la cosa más atrevida que has hecho en público?",
+        "language":"spanish"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"¿Cuál es el secreto más grande que has guardado de tu pareja actual o de una pareja anterior?",
+        "language":"spanish"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Imita a uno de los presentes en la sala y deja que los demás adivinen quién es.",
+        "language":"spanish"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Imita a un miembro de la familia durante dos minutos mientras los demás intentan adivinar quién es.",
+        "language":"spanish"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Imita a una celebridad hasta que alguien adivine de quién se trata.",
+        "language":"spanish"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Envía un mensaje de voz a la última persona que te escribió diciéndole que has decidido dedicarte profesionalmente al canto, y canta una estrofa de una canción para demostrarlo.",
+        "language":"spanish"
+    }
+]
