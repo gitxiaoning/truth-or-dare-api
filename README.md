@@ -2,9 +2,10 @@
 
 ## Preps
 
-1. Prior to deploying the API, certain preparatory steps must be completed:
-   1. Install all necessary dependencies by running the command `npm install`.
-   2. Create a file named `.env` in the root directory of this project. Within this file, declare an environment variable `PORT` and assign it your preferred port number, for example, `PORT=8080`.
+Prior to deploying the API, certain preparatory steps must be completed:
+
+1. Install all necessary dependencies by running the command `npm install`.
+2. Create a file named `.env` in the root directory of this project. Within this file, declare an environment variable `PORT` and assign it your preferred port number, for example, `PORT=8080`.
 
 
 
