@@ -1,7 +1,10 @@
 const express = require("express");
+const dotenv = require('dotenv');
+dotenv.config();
 
+
+// Set up the API
 const truthOrDare = express()
-
 
 // The endpoint for the truth
 const truth = require("./Routes/truth.js");
@@ -13,6 +16,6 @@ truthOrDare.use("/dare", dare);
 
 
 // Listening to the port
-truthOrDare.listen(8080, ()=>{
-    console.log("Listening to port 8080");
+truthOrDare.listen(process.env.PORT, ()=>{
+    console.log(`Listening to port ${process.env.PORT}`);
 })
