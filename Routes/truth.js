@@ -1,6 +1,7 @@
 const fs = require("fs");
 const express = require("express");
 const { v4: uuidv4 } = require('uuid');
+const {getTruthOrDare} = require("../gpt");
 
 const truthEndPoint = express.Router();
 
@@ -21,29 +22,44 @@ truthEndPoint.get("/:language/:audience", (req, res) => {
         curr_audience = "family";
     }
 
-    function getData(path){
-        const allData = fs.readFileSync(path);
-        return JSON.parse(allData);
+    // Query the GPT
+    async function getTruth(language, audience){
+        const truthContent = await getTruthOrDare("truth", language, audience);
+        
+        const truthEntry = {
+            "type":"truth",
+            "audience":audience,
+            "content":truthContent,
+            "language":language,
+            "id":uuidv4()
+        }
+        
+        res.json(truthEntry);
     }
 
-    let curr_data = getData("data/truth.json")
+    getTruth(curr_language, curr_audience);
+
+    // The following code is archived
+    // function getData(path){
+    //     const allData = fs.readFileSync(path);
+    //     return JSON.parse(allData);
+    // }
+
+    //let curr_data = getData("data/dare.json")
 
     // Only the data that matchs the requirement will show
-    const satisfied_data = curr_data.filter((data) => {
-        return data.audience === curr_audience && data.language === curr_language;
-    })
+    // const satisfied_data = curr_data.filter((data) => {
+    //     return data.audience === curr_audience && data.language === curr_language;
+    // })
 
-    console.log(satisfied_data)
+    // console.log(satisfied_data)
 
     // Randomly choose one from the data
-    const randomTruth = Math.floor(Math.random() * satisfied_data.length)
+    // const randomDare = Math.floor(Math.random() * satisfied_data.length)
     
-    res.json(satisfied_data[randomTruth]);
+    //res.json(satisfied_data[randomDare]);
     
 })
-
-
-
 
 
 module.exports = truthEndPoint;
