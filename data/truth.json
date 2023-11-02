@@ -1,0 +1,66 @@
+[
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"What is one thing you've never told anyone in this room?",
+        "language":"english",
+        "id":"0c12e9b3-30b2-448a-a52e-83448974378d"
+    },
+
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"If you could become any character from a book or movie for a day, who would you choose and why?",
+        "language":"english",
+        "id":"4b40334d-9f82-4463-b439-52847e88ed07"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"What is the one thing you would never want your parents to find out about you?",
+        "language":"english",
+        "id":"7e53a12d-49eb-49af-ad07-cbe4f7a7bf5f"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"What is the one secret you are most ashamed of?",
+        "language":"english",
+        "id":"6011ce4d-835b-4610-8216-91a729ae2a35"
+    },
+
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"¿Cuál es el recuerdo más feliz que tienes con nuestra familia?",
+        "language":"spanish",
+        "id":"0232c35f-0fcc-427f-82c8-5e45ca16966b"
+    },
+
+    {
+        "type":"truth",
+        "audience":"family",
+        "content":"¿Cuál es el momento más embarazoso de tu vida que puedas compartir con nosotros?",
+        "language":"spanish",
+        "id":"9deadd26-853e-420f-b618-f263cabc3074"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"¿Cuál es la cosa más atrevida que has hecho en público?",
+        "language":"spanish",
+        "id":"d272322d-7644-493e-9d2b-4fbca61f2fe7"
+    },
+
+    {
+        "type":"truth",
+        "audience":"adults",
+        "content":"¿Cuál es el secreto más grande que has guardado de tu pareja actual o de una pareja anterior?",
+        "language":"spanish",
+        "id":"be610561-0db7-4375-8369-70b06de7f95c"
+    }
+
+]

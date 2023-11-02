@@ -1,0 +1,65 @@
+[
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Go outside and sing the chorus of your favorite song as loudly as you can.",
+        "language":"english",
+        "id":"1d7430a4-bfa4-4dba-922d-669da155d7b9"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Pretend to be a tour guide and give a detailed tour of the room we're in, highlighting 'historical facts' and 'artifacts'.",
+        "language":"english",
+        "id":"1a6f3397-40e4-49f6-a4e9-1f4201cccc88"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Call someone on your phone and sing 'Happy Birthday' to them, regardless of whether it's their birthday or not.",
+        "language":"english",
+        "id":"f569149b-500d-4914-99fe-e13743e95d98"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Send a funny selfie to the third person in your contact list.",
+        "language":"english",
+        "id":"73ab4cf9-69eb-4f95-b849-31354192c8f8"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Imita a uno de los presentes en la sala y deja que los demás adivinen quién es.",
+        "language":"spanish",
+        "id":"4cd564a3-fc66-4cc1-8292-b35897a8f6e3"
+    },
+
+    {
+        "type":"dare",
+        "audience":"family",
+        "content":"Imita a un miembro de la familia durante dos minutos mientras los demás intentan adivinar quién es.",
+        "language":"spanish",
+        "id":"3509483b-a98d-4b4d-90c1-9853cb42188e"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Imita a una celebridad hasta que alguien adivine de quién se trata.",
+        "language":"spanish",
+        "id":"138b98a3-6c86-4ba6-84f6-e09cdbb59d6e"
+    },
+
+    {
+        "type":"dare",
+        "audience":"adults",
+        "content":"Envía un mensaje de voz a la última persona que te escribió diciéndole que has decidido dedicarte profesionalmente al canto, y canta una estrofa de una canción para demostrarlo.",
+        "language":"spanish",
+        "id":"a788387f-cdbf-470e-a07a-12d1f4836bde"
+    }
+]
