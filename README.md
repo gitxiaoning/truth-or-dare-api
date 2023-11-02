@@ -7,7 +7,7 @@ Prior to deploying the API, certain preparatory steps must be completed:
 1. Install all necessary dependencies by running the command `npm install`.
 2. Create a file named `.env` in the root directory of this project. Within this file, declare an environment variable `BACKEND_PORT` and assign it your preferred port number, for example, `BACKEND_PORT=8080`. If the `BACKEND_PORT` was not specified, the default is `8080`. 
 
-3. Within the `.env` file, declare another environment variable `FRONTEND_PORT` to allow the front end to make connection with the backend, for example, ``FRONTEND_PORT=3000`. If the `FRONTEND_PORT` was not specified, the default is `3000`.
+3. Within the `.env` file, declare another environment variable `FRONTEND_PORT` to allow the front end to make connection with the backend, for example, `FRONTEND_PORT=3000`. If the `FRONTEND_PORT` was not specified, the default is `3000`.
 
 
 
