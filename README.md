@@ -32,7 +32,7 @@ For each endpoint, the client must specify the desired language and target audie
 - `spanish`
 - `french`
 - `latin`
-- `mandarin`
+- `chinese`
 
 ### Supported Audiences
 
