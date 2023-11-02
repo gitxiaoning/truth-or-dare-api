@@ -28,10 +28,13 @@ For each endpoint, the client must specify the desired language and target audie
 
 ### Supported Languages
 
-- English
-- Spanish
+- `english`
+- `spanish`
+- `french`
+- `latin`
+- `mandarin`
 
 ### Supported Audiences
 
-- Family
-- Adults
+- `family`
+- `adults`

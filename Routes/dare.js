@@ -5,7 +5,7 @@ const {getTruthOrDare} = require("../gpt");
 
 const dareEndPoint = express.Router();
 
-const supported_languages = ["english", "spanish"];
+const supported_languages = ["english", "spanish", "french", "latin", "mandarin"];
 const supported_audience = ["family", "adults"];
 
 dareEndPoint.get("/:language/:audience", (req, res) => {
