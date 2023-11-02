@@ -2,7 +2,6 @@ const fs = require("fs");
 const express = require("express");
 const { v4: uuidv4 } = require('uuid');
 
-
 const truthEndPoint = express.Router();
 
 const supported_languages = ["english", "spanish"];
