@@ -22,7 +22,7 @@ async function queryGPT(message){
 
 // A function generate a truth or dare by GPT
 async function getTruthOrDare(option, language, audience){
-  let prompt =`Being creativity me a unique ${option} question in Dare or Truth game for ${audience} in ${language}.  Put $ before and after your ${option} question.`
+  let prompt =`Being creativity me a unique ${option} question in Dare or Truth game for ${audience} in ${language}. Put $ before and after your ${option} question.`
 
   if (option === "truth"){
     prompt += "Try your best not generate about what is the most embarrassing thing you have ever done in public."
